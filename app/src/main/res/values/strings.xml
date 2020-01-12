@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">WeatherApp</string>
+    <string name="url_temp_icon">http://openweathermap.org/img/wn/ %1$d @2x.png</string>
+    <string name="text_temperature">%1$s \u2103</string>
+    <string name="text_wind">%1$s m/s</string>
+    <string name="text_pressure">%1$s hpa</string>
+    <string name="text_humidity">%1$s \u2105</string>
+    <string name="text_welcome">Selamat %1$s, %2$s</string>
+    <string name="text_weather_description">%1$s, %2$s</string>
+    <string name="text_btn_search">Cari</string>
+    <string name="text_hint_username">Nama Lengkap</string>
+    <string name="text_hint_postalcode">Kab/Kota</string>
+    <string name="text_edittext_not_empty">Nama Kab/Kota tidak boleh kosong.</string>
+    <string name="text_made_by">\u00a9 Padillahirpan</string>
+    <string name="text_data_not_found">Data yang anda cari tidak ada.\nSilahkan Coba Lagi.</string>
+    <string name="text_title_main">Mau tahu hari ini hujan \natau cerah?</string>
+    <string name="text_description_main">Cari tahu yuk!</string>
+
+
+</resources>

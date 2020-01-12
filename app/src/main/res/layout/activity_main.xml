@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackgroundWhite"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/title_main_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin"
+        android:layout_above="@+id/description_main_id"
+        android:text="@string/text_title_main"
+        android:textSize="@dimen/txt_large"
+        android:textColor="@color/colorTextBlack"
+        style="@style/BoldText"/>
+
+    <TextView
+        android:id="@+id/description_main_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin"
+        android:layout_marginBottom="@dimen/margin"
+        android:layout_above="@+id/username_id"
+        android:text="@string/text_description_main"
+        android:textSize="@dimen/txt_medium"
+        android:textColor="@color/colorTextGrey"
+        style="@style/RegularText"/>
+
+    <ImageView
+        android:id="@+id/image_main_id"
+        android:layout_width="190dp"
+        android:layout_height="190dp"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/title_main_id"
+        android:layout_marginBottom="50dp"
+        android:src="@drawable/weather_small"/>
+
+    <EditText
+        android:id="@+id/username_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/postal_code_id"
+        android:layout_marginLeft="@dimen/margin"
+        android:layout_marginRight="@dimen/margin"
+        android:layout_marginBottom="8dp"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:lines="1"
+        android:hint="@string/text_hint_username"
+        style="@style/RegularText"
+        android:visibility="gone"/>
+
+    <EditText
+        android:id="@+id/postal_code_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/margin"
+        android:layout_marginLeft="@dimen/margin"
+        android:layout_marginStart="@dimen/margin"
+        android:layout_marginEnd="@dimen/margin"
+        android:layout_above="@+id/btn_search"
+        android:imeOptions="actionGo"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:lines="1"
+        android:hint="@string/text_hint_postalcode"
+        style="@style/RegularText"/>
+
+    <Button
+        android:id="@+id/btn_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin"
+        android:layout_marginRight="@dimen/margin"
+        android:layout_marginLeft="@dimen/margin"
+        android:layout_marginEnd="@dimen/margin"
+        android:layout_above="@+id/copyright_id"
+        android:layout_marginTop="@dimen/margin"
+        android:layout_marginBottom="40dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/bg_btn_rounded"
+        android:textColor="@color/colorBackgroundWhite"
+        android:padding="8dp"
+        style="@style/RegularText"
+        android:text="@string/text_btn_search"/>
+
+    <TextView
+        android:id="@+id/copyright_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="@dimen/margin"
+        style="@style/RegularText"
+        android:textSize="@dimen/txt_smal"
+        android:text="@string/text_made_by"/>
+
+</RelativeLayout>

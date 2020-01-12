@@ -1,0 +1,27 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorIcon</item>
+        <item name="colorAccent">@color/colorIcon</item>
+    </style>
+
+    <style name="RegularText" parent="android:TextAppearance">
+        <item name="fontPath">fonts/Roboto-Regular.ttf</item>
+    </style>
+
+    <style name="MediumText" parent="android:TextAppearance">
+        <item name="fontPath">fonts/Roboto-Medium.ttf</item>
+    </style>
+
+    <style name="BoldText" parent="android:TextAppearance">
+        <item name="fontPath">fonts/Roboto-Bold.ttf</item>
+    </style>
+
+    <style name="ItalicText" parent="android:TextAppearance">
+        <item name="fontPath">fonts/Roboto-Italic.ttf</item>
+    </style>
+
+</resources>
